@@ -1,0 +1,12 @@
+t1 = (1, 2, 3)
+t2 = (4, 5, 6)
+
+print("Before swapping:")
+print("t1 =", t1)
+print("t2 =", t2)
+
+t1, t2 = t2, t1
+
+print("After swapping:")
+print("t1 =", t1)
+print("t2 =", t2)
